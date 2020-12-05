@@ -1,0 +1,72 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	margin: 0px;
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #4169E1;
+}
+#menu ul{
+	margin: 0px;
+	background-color: c;
+	list-style: none;
+	box-shadow: 15px 0px 15px black;
+	border-radius: 0px 0px 5px 5px;
+}
+#menu ul li{
+	display: inline;
+}
+#menu ul li a{
+	padding: 15px 25px 20px 25px;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	margin-left: 0px;
+	text-shadow: 1px 0px 5px black;
+	font-weight: bold;
+	font-family: arial;
+
+}
+#menu ul li a:hover{
+	color: white;
+	background: gray;
+	transition: 0.5s;
+	text-transform: none;
+	border-radius: 0px 0px 5px 5px;
+}
+#titulo{
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	margin-top: 250px;
+}
+#iggy img{
+	float: left;
+	margin-bottom: 2px;
+	height: 250px; 
+	width: auto;
+}
+#rodape{
+	box-shadow: 0px 0px 15px black;
+	display: inline;
+	position: absolute;
+	bottom: 0px;
+	display: block;
+	background-color: gray;
+	width: 100%;
+}
+#rodape p{
+	margin-top: 10px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+#rodape img{
+	height: 50px;
+	width: auto;
+	margin-left: 10px;
+	font-weight: bold;
+}

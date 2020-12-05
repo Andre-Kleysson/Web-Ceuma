@@ -1,0 +1,67 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: black;
+	background-image: url("imagens/jojo-1606788382916-7014.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+#menu ul{
+	margin: 0px;
+	background-color: orange;
+	list-style: none;
+	box-shadow: 15px 0px 15px black;
+	border-radius: 0px 0px 5px 5px;
+}
+#menu ul li{
+	display: inline;
+}
+#menu ul li a{
+	padding: 15px 25px 20px 25px;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	margin-left: 0px;
+	text-shadow: 1px 0px 5px black;
+	font-weight: bold;
+	font-family: arial;
+
+}
+#menu ul li a:hover{
+	color: white;
+	background: gray;
+	transition: 0.5s;
+	text-transform: none;
+	border-radius: 0px 0px 5px 5px;
+}
+#titulo h1{
+	margin-top: 20px;
+	color: orange;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	size: 500px;
+}
+#centro img{
+	margin-top: 45px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+}
+#coluna{
+	display: block;
+	background-color: orange;
+	width: 750px;
+	height: 1000px;
+	margin-top: 45px;
+	margin-bottom: 45px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: justify;
+}

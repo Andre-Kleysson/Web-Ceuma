@@ -1,0 +1,71 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color: black;
+	background-image: url("imagens/Inoue+Takehiko+-+32.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#menu ul{
+	margin: 0px;
+	background-color: #b7e2e8;
+	list-style: none;
+	box-shadow: 15px 0px 15px black;
+	border-radius: 0px 0px 5px 5px;
+}
+#menu ul li{
+	display: inline;
+}
+#menu ul li a{
+	padding: 15px 25px 20px 25px;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	margin-left: 0px;
+	text-shadow: 1px 0px 5px black;
+	font-weight: bold;
+	font-family: arial;
+
+}
+#menu ul li a:hover{
+	color: white;
+	background: gray;
+	transition: 0.5s;
+	text-transform: none;
+	border-radius: 0px 0px 5px 5px;
+}
+#titulo{
+	margin-top: 20px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	color: black;
+	display: block;
+	size: 500px;
+	font-weight: bold;
+}
+#centro img{
+	text-align: center;
+	padding-right: auto;
+	padding-left: auto;
+	padding-top: 45px;
+	width: 900px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+#coluna{
+	background-color: #7BA1BF;
+	width: 750px;
+	height: 600px;
+	float: right;
+	margin-top: 45px;
+	margin-right: 35px;
+	margin-bottom: 45px;
+	padding: 10px;
+	text-align: justify;
+	border-radius: 10px;
+}
